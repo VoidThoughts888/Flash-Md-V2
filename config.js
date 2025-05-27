@@ -22,7 +22,7 @@ const conf = {
   ? process.env.PREFIX.split(",").map(p => p.trim()) 
   : [""], 
   Session: process.env.SESSION || "",
-  NUMBER: process.env.OWNER_NUMBER || "2349161355499",
+  NUMBER: process.env.OWNER_NUMBER || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || ""
 };
